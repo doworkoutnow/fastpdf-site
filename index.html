@@ -4,42 +4,76 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>FASTPDF - AI PDF Tools</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background: #f4f4f4;
-      color: #333;
-      padding: 2rem;
-      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(135deg, #EFF6FF, #E0F2FE);
+      color: #0F172A;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
     }
+
     .container {
-      max-width: 700px;
-      margin: auto;
-      background: white;
-      padding: 2rem;
-      border-radius: 12px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      background: #ffffff;
+      padding: 48px 32px;
+      border-radius: 16px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.06);
+      max-width: 600px;
+      width: 90%;
+      text-align: center;
     }
+
     h1 {
-      color: #4CAF50;
+      font-size: 2.5rem;
+      margin-bottom: 16px;
+      color: #3B82F6;
     }
+
+    p {
+      font-size: 1.05rem;
+      color: #475569;
+      line-height: 1.6;
+      margin-bottom: 16px;
+    }
+
     .btn {
       display: inline-block;
-      background: #4CAF50;
-      color: white;
-      padding: 0.7rem 1.5rem;
+      margin-top: 20px;
+      background: #3B82F6;
+      color: #fff;
+      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
+      font-weight: 600;
       text-decoration: none;
-      border-radius: 5px;
-      margin-top: 1rem;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background: #2563EB;
+    }
+
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 2rem;
+      }
+      .container {
+        padding: 32px 20px;
+      }
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>FASTPDF</h1>
+    <h1><i class="bx bxs-file-pdf"></i> FASTPDF</h1>
     <p><strong>AI-powered PDF tools for fast and intelligent document processing.</strong></p>
-    <p>FASTPDF is a Software as a Service (SaaS) platform that helps users read, analyze, extract, and summarize PDF documents using artificial intelligence. Our customers include lawyers, consultants, and students who work with complex documents daily.</p>
-    <p>Users subscribe monthly and access the tools via a web platform. Our services are accessible globally.</p>
+    <p>FASTPDF is a Software as a Service (SaaS) platform that helps users read, analyze, extract, and summarize PDF documents using artificial intelligence.</p>
+    <p>Our customers include lawyers, consultants, and students who work with complex documents daily. Users subscribe monthly and access the tools via a secure global web platform.</p>
     <a href="#" class="btn">Coming Soon</a>
   </div>
 </body>
